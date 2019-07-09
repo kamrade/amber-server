@@ -1,0 +1,23 @@
+{
+  "name": "amber-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "serve:dev": "nodemon ./server.js",
+    "start:dev": "export NODE_ENV=dev || SET NODE_ENV=dev && npm run serve:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
